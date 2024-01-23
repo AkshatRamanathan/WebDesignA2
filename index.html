@@ -11,14 +11,30 @@
 
 <body>
     <h1>WELCOME TO THE TIMER APPLICATION</h1>
-    <section id="timer">
-        <span>STOPWATCH :</span>
-        <span id="time">00 : 00</span>
-        <button type="button" onclick="start()">START</button>
-        <button type="button" onclick="stop()">STOP</button>
-        <button type="button" onclick="reset()">RESET</button>
-    </section>
+    <div>PART A
+        <section id="timer">
+            <span>TIME LEFT :</span>
+            <span id="timeA">00 : 10</span>
+        </section>
+        <div id="questions">
     
+            <button id="start" onclick="start2()">START</button>
+            <h3 id="title">INSTRUCTIONS</h3>
+            <p id="instructions">On clicking the start button, the timer begins. After selection of option, press next (or
+                previous) to navigate to other questions. On completion, the Score and time information will be presented
+                with option to restart the quiz</p>
+        </div>
+    </div>
+    <div>PART B
+        <section id="timer">
+            <span>STOPWATCH :</span>
+            <span id="time">00 : 00</span>
+            <button type="button" onclick="start()">START</button>
+            <button type="button" onclick="stop()">STOP</button>
+            <button type="button" onclick="reset()">RESET</button>
+        </section>
+    </div>
+
 </body>
 
 </html>
